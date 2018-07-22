@@ -1,0 +1,52 @@
+*{margin:0; padding:0;}
+#warp {
+  width:1000px; margin:0 auto;
+  background: #f1779e;
+}
+a{
+  color:black;
+  text-decoration:none;
+}
+
+body{
+  background-image: url(https://ncache.ilbe.com/files/attach/new/20161016/12250440/1366901265/8899222237/98cdf23234c7a615cf85317dec084f0d.png);
+}
+
+h1 {
+  font-size:50px;
+  font-family: "돋움";
+  text-align: center;
+  border: 50px solid #b366ff;
+  background-color:#b366ff;
+  margin:0px;
+  color: white;
+}
+
+#hh1{
+  height:400; background:#f1779e;
+}
+
+ul {
+  font-size:30px;
+}
+
+#window{
+  height:400px; background: #fcb354; width:30%; float: left;
+}
+
+#first{
+  height:400px; background: #24bbaf; width:70%; float: right;
+}
+
+@media screen and (min-width:1024px){
+  #wrap {width:90%;}
+}
+
+@media screen and (max-width:800px){
+  #wrap {width:100%;}
+}
+
+@media screen and (max-width:480px){
+  #window {float:none; width:auto;}
+  #first {float:none; width:auto;}
+}
